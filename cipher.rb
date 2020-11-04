@@ -11,4 +11,7 @@ def cipher(message, factor)
 end
 
 p cipher("What a string!", 5) #=> "Bmfy f xywnsl!"
+p cipher("Bmfy f xywnsl!", -5) #=> "What a string!"
+
 p cipher("This is a secret!!", 40) #=> "Hvwg wg o gsqfsh!!"
+p cipher("Hvwg wg o gsqfsh!!", -40) #=> "This is a secret!!"
